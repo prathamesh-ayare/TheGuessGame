@@ -1,7 +1,7 @@
 'use strict';
 
 //Event listner
-let secretNumber = Math.trunc(Math.random() * 20) + 1;
+let secretNumber = Math.trunc(Math.random() * 200) + 1;
 let score = 20;
 let highscore = 0;
 const displayMessage = function (message) {
